@@ -1,0 +1,20 @@
+{
+  "name": "conways-game-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "start": "node --experimental-vm-modules index.js"
+  },
+  "author": "Christopher Freeman",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
