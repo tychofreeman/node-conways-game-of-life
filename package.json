@@ -9,7 +9,7 @@
     "start": "node --experimental-vm-modules index.js"
   },
   "author": "Christopher Freeman",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
     "node-fetch": "^3.2.3"
